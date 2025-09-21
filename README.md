@@ -1,7 +1,4 @@
-# Esport
+# nothing
 
-info login setiap malam
-
-# PK 
-
-no party no login
+ini hanya sekedar code hiburan
+@pkesport
