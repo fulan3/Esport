@@ -13,31 +13,37 @@
       <img src="data/logo.png" alt="logo">
     </div>
     <div class="tengah">
-      <img src="data/Benner.png"alt="bennee">
+      <img src="data/Benner.png" alt="bennee">
     </div>
-    <div class="kanan"><i class="fas fa-bars"></i></div>
+    <div class="kanan">
+      <i class="fas fa-bars" id="menuToggle"></i>
+      <div class="dropdown-menu" id="dropdownMenu">
+        <div class="menu-item" id="themeToggle"><i class="fas fa-moon"></i> Mode Gelap</div>
+        <div class="menu-item" onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?mode=ems_copy_c'"><i class="fas fa-users"></i> Gabung Grup</div>
+        <div class="menu-item"><i class="fas fa-info-circle"></i> Tentang</div>
+      </div>
+    </div>
   </div>
   
   <div class="feed">
-    
-        <div class="post">
+    <div class="post">
       <div class="post-header">
         <img src="data/log.jpg" alt="user">
         <span>JAM TERBANG ANTI DARK</span>
       </div>
       <div class="post-img">
-        <img src="data/0.jpg" alt="post image">
+        <div class="image-loader"></div>
+        <img src="data/0.jpg" alt="post image" loading="lazy">
       </div>
       <div class="post-actions">
         <div>
-          <i class="far fa-heart"></i>
+          <i class="far fa-heart like-btn"></i>
           <i class="far fa-comment"></i>
-          <i class="far fa-paper-plane"></i>
+          <i class="far fa-paper-plane" onclick="shareNow()"></i>
         </div>
-        <i class="far fa-bookmark"></i>
+        <i class="far fa-bookmark bookmark-btn"></i>
       </div>
-      <div class="post-likes">Disukai oleh <b>feby, eone, </b> dan
-      7.20k lainnya</div>
+      <div class="post-likes">Disukai oleh <b>feby, eone, </b> dan 7.20k lainnya</div>
       <div class="post-caption"><span>ileng bozz </span> </div>
     </div>
     
@@ -47,20 +53,20 @@
         <span>JOIN MEMBER</span>
       </div>
       <div class="post-img">
-        <img src="data/post1.jpg" alt="post image">
+        <div class="image-loader"></div>
+        <img src="data/post1.jpg" alt="post image" loading="lazy">
       </div>
       <div class="post-actions">
         <div>
-          <i class="far fa-heart"></i>
+          <i class="far fa-heart like-btn"></i>
           <i class="far fa-comment"></i>
-          <i class="far fa-paper-plane"></i>
+          <i class="far fa-paper-plane" onclick="shareNow()"></i>
+          
         </div>
-        <i class="far fa-bookmark"></i>
+        <i class="far fa-bookmark bookmark-btn"></i>
       </div>
-      <div class="post-likes">Disukai oleh <b>onic, evos, </b> dan
-      1.20k lainnya</div>
-      <div class="post-caption"><span>join pk no privasi! </span>klik
-      notif!? 😎</div>
+      <div class="post-likes">Disukai oleh <b>onic, evos, </b> dan 1.20k lainnya</div>
+      <div class="post-caption"><span>join pk no privasi! </span>klik notif!? 😎</div>
     </div>
     
     <div class="post">
@@ -69,15 +75,17 @@
         <span>LOGIN jam 9+</span>
       </div>
       <div class="post-img">
-        <img src="data/post2.jpg" alt="post image">
+        <div class="image-loader"></div>
+        <img src="data/post2.jpg" alt="post image" loading="lazy">
       </div>
       <div class="post-actions">
         <div>
-          <i class="far fa-heart"></i>
+          <i class="far fa-heart like-btn"></i>
           <i class="far fa-comment"></i>
-          <i class="far fa-paper-plane"></i>
+          <i class="far fa-paper-plane" onclick="shareNow()"></i>
+          
         </div>
-        <i class="far fa-bookmark"></i>
+        <i class="far fa-bookmark bookmark-btn"></i>
       </div>
       <div class="post-likes">Disukai oleh <b>raden</b> dan 1.2k lainnya</div>
       <div class="post-caption"><span>Yakin! mau nabrak trio anomaly?</span>😋</div>
@@ -89,28 +97,30 @@
         <span>NEWS PROVIDES</span>
       </div>
       <div class="post-img">
-        <img src="data/post3.jpg" alt="post image">
+        <div class="image-loader"></div>
+        <img src="data/post3.jpg" alt="post image" loading="lazy">
       </div>
       <div class="post-actions">
         <div>
-          <i class="far fa-heart"></i>
+          <i class="far fa-heart like-btn"></i>
           <i class="far fa-comment"></i>
-          <i class="far fa-paper-plane"></i>
+          <i class="far fa-paper-plane" onclick="shareNow()"></i>
+          
         </div>
-        <i class="far fa-bookmark"></i>
+        <i class="far fa-bookmark bookmark-btn"></i>
       </div>
       <div class="post-likes">Disukai oleh <b>ucok</b> dan 10k lainnya</div>
       <div class="post-caption"><span>WS pecah nabrak partyan kiboy</span>🥲</div>
-
-
     </div>
+    
     <div class="post">
       <div class="post-header">
         <img src="data/log.jpg" alt="user">
         <span>JOKI/mabar</span>
       </div>
       <div class="post-img">
-        <img src="data/post4.jpg" alt="post image">
+        <div class="image-loader"></div>
+        <img src="data/post4.jpg" alt="post image" loading="lazy">
       </div>
       <div class="post-actions">
         <div>
@@ -118,30 +128,158 @@
           <i class="fa-regular fa-clock"></i>
           <i class="fa-solid fa-credit-card"></i>
         </div>
-        <i class="far fa-bookmark"></i>
+        <i class="far fa-bookmark bookmark-btn"></i>
       </div>
       <div class="post-likes">Menit 9 end, langsung tf</div>
       <div class="post-caption"><span>JOIN MABAR? 1mact </span>Rp 60.000</div>
     </div>
-    </div>
+  </div>
+  
+  <div class="modal" id="imageModal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
   
   <div class="bottom-nav">
     <div class="icon-btn active"><i class="fas fa-home"></i></div>
-<div class="icon-btn"
-onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?mode=ems_copy_c'">
-    <i class="fas fa-user-friends"></i>
-    <span class="badge">10</span>
-</div>
+    <div class="icon-btn" onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?mode=ems_copy_c'">
+      <i class="fas fa-user-friends"></i>
+      <span class="badge">10</span>
+    </div>
     <div class="icon-btn"><i class="fas fa-plus-circle"></i></div>
-    <div class="icon-btn"
-    onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?mode=ems_copy_c'">
-    <i class="fas fa-bell"></i>
-    <span class="badge">99</span>
-</div>
+    <div class="icon-btn" onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?mode=ems_copy_c'">
+      <i class="fas fa-bell"></i>
+      <span class="badge">99</span>
+    </div>
     <div class="avatar"><img src="data/log.jpg" alt="avatar"></div>
   </div>
 
-</body>
+  <script>
+    
+    document.querySelectorAll('.like-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        this.classList.toggle('far');
+        this.classList.toggle('fas');
+        this.classList.toggle('liked');
+        
+        
+        this.style.transform = 'scale(1.2)';
+        setTimeout(() => {
+          this.style.transform = 'scale(1)';
+        }, 200);
+      });
+    });
+    
+    const shareNow = () => {
+  if (navigator.share) {
+    navigator.share({
+      title: 'PK ESPORT',
+      text: 'JOIN PK YUK. bro!',
+      url: 'https://fulan3.github.io/Esport/'
+    })
+    .then(() => console.log('Berhasil dibagikan'))
+    .catch((error) => console.log('Gagal:', error));
+  } else {
+    alert('Browser tidak mendukung fitur share!');
+  }
+};
+   
+    document.querySelectorAll('.bookmark-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        this.classList.toggle('far');
+        this.classList.toggle('fas');
+        this.classList.toggle('bookmarked');
+      });
+    });
+    
+    
+    const menuToggle = document.getElementById('menuToggle');
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    
+    menuToggle.addEventListener('click', function(e) {
+      e.stopPropagation();
+      dropdownMenu.classList.toggle('show');
+    });
+    
+    
+    document.addEventListener('click', function() {
+      dropdownMenu.classList.remove('show');
+    });
+    
+    
+    dropdownMenu.addEventListener('click', function(e) {
+      e.stopPropagation();
+    });
+    
+    
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = themeToggle.querySelector('i');
+    
+    themeToggle.addEventListener('click', function() {
+      document.body.classList.toggle('light-mode');
+      
+      if (document.body.classList.contains('light-mode')) {
+        themeIcon.className = 'fas fa-sun';
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i> Mode Terang';
+      } else {
+        themeIcon.className = 'fas fa-moon';
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i> Mode Gelap';
+      }
+    });
+    
+    
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    const closeModal = document.querySelector('.close-modal');
+    
+    document.querySelectorAll('.post-img img').forEach(img => {
+      img.addEventListener('click', function() {
+        modal.style.display = 'block';
+        modalImg.src = this.src;
+      });
+    });
+    
+    closeModal.addEventListener('click', function() {
+      modal.style.display = 'none';
+    });
+    
+    
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+    
+    
+    window.addEventListener('load', function() {
+      document.querySelectorAll('.image-loader').forEach(loader => {
+        loader.style.display = 'none';
+      });
+    });
+    
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    
+    document.querySelectorAll('.post').forEach(post => {
+      post.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-5px)';
+        this.style.transition = 'transform 0.3s ease';
+      });
+      
+      post.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+      });
+    });
+  </script>
+
   <style>
     body {
       margin: 0;
@@ -149,74 +287,210 @@ onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?
       background: #18191a;
       color: white;
       padding-bottom: 60px;
+      transition: background 0.3s, color 0.3s;
     }
     
-     .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 10px;
-    background: #242526;
-    border-bottom: 1px solid #3a3b3c;
-  }
+    body.light-mode {
+      background: #f0f2f5;
+      color: #1c1e21;
+    }
+    
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 10px;
+      background: #242526;
+      border-bottom: 1px solid #3a3b3c;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    body.light-mode .header {
+      background: #ffffff;
+      border-bottom: 1px solid #dddfe2;
+    }
 
-  .kiri img {
-    width: 26px;
-    height: 26px;
-    object-fit: contain;
-  }
-  .tengah img {
-    width: 100px;
-    height: 30px;
-    object-fit: contain;
-  }
+    .kiri img {
+      width: 26px;
+      height: 26px;
+      object-fit: contain;
+    }
+    .tengah img {
+      width: 100px;
+      height: 30px;
+      object-fit: contain;
+    }
 
-  .kanan {
-    font-size: 22px;
-    cursor: pointer;
-    color: #fff;
-  }
+    .kanan {
+      font-size: 22px;
+      cursor: pointer;
+      color: #fff;
+      position: relative;
+    }
+    
+    body.light-mode .kanan {
+      color: #1c1e21;
+    }
+    
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      background: #242526;
+      border: 1px solid #3a3b3c;
+      border-radius: 8px;
+      width: 200px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      z-index: 1001;
+    }
+    
+    body.light-mode .dropdown-menu {
+      background: #ffffff;
+      border: 1px solid #dddfe2;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    .dropdown-menu.show {
+      display: block;
+    }
+    
+    .menu-item {
+      padding: 12px 16px;
+      cursor: pointer;
+      border-bottom: 1px solid #3a3b3c;
+      transition: background 0.2s;
+    }
+    
+    body.light-mode .menu-item {
+      border-bottom: 1px solid #dddfe2;
+    }
+    
+    .menu-item:hover {
+      background: #3a3b3c;
+    }
+    
+    body.light-mode .menu-item:hover {
+      background: #f0f2f5;
+    }
+    
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    
+    .menu-item i {
+      margin-right: 10px;
+      width: 20px;
+      text-align: center;
+    }
 
     .feed {
       max-width: 500px;
       margin: 0 auto;
       padding: 15px;
     }
+    
     .post {
       background: #242526;
       border-radius: 8px;
       margin-bottom: 20px;
       overflow: hidden;
       border: 1px solid #3a3b3c;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+    
+    body.light-mode .post {
+      background: #ffffff;
+      border: 1px solid #dddfe2;
+    }
+    
+    .post:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    
     .post-header {
       display: flex;
       align-items: center;
       padding: 10px;
       gap: 10px;
     }
+    
     .post-header img {
       width: 35px;
       height: 35px;
       border-radius: 50%;
     }
+    
     .post-header span {
       font-weight: bold;
     }
+    
+    .post-img {
+      position: relative;
+    }
+    
     .post-img img {
       width: 100%;
       display: block;
+      cursor: pointer;
+      transition: transform 0.3s ease;
     }
+    
+    .post-img img:hover {
+      transform: scale(1.02);
+    }
+    
+    .image-loader {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #3a3b3c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: pulse 1.5s infinite;
+    }
+    
+    @keyframes pulse {
+      0% { opacity: 0.6; }
+      50% { opacity: 0.8; }
+      100% { opacity: 0.6; }
+    }
+    
     .post-actions {
       display: flex;
       justify-content: space-between;
       padding: 8px 12px;
       font-size: 20px;
     }
+    
     .post-actions i {
       cursor: pointer;
+      transition: transform 0.2s, color 0.2s;
+      margin-right: 10px;
     }
-    .post-likes,.post-caption {
+    
+    .post-actions i:last-child {
+      margin-right: 0;
+    }
+    
+    .post-actions i:hover {
+      transform: scale(1.1);
+    }
+    
+    .like-btn.liked {
+      color: #ed4956;
+    }
+    
+    .bookmark-btn.bookmarked {
+      color: #ffd700;
+    }
+    
+    .post-likes, .post-caption {
       padding: 0 12px 8px 12px;
       font-size: 14px;
     }
@@ -224,6 +498,51 @@ onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?
     .post-caption span {
       font-weight: bold;
       margin-right: 5px;
+    }
+    
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1002;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.9);
+      animation: fadeIn 0.3s;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    .modal-content {
+      display: block;
+      margin: auto;
+      max-width: 90%;
+      max-height: 90%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 8px;
+    }
+    
+    .close-modal {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .close-modal:hover {
+      color: #bbb;
     }
     
     .bottom-nav {
@@ -240,14 +559,28 @@ onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?
       z-index: 999;
     }
     
+    body.light-mode .bottom-nav {
+      background: #ffffff;
+      border-top: 1px solid #dddfe2;
+    }
+    
     .icon-btn {
       position: relative;
       font-size: 22px;
       cursor: pointer;
       color: #fff;
+      transition: color 0.2s;
+    }
+    
+    body.light-mode .icon-btn {
+      color: #1c1e21;
     }
     
     .icon-btn.active {
+      color: #1877f2;
+    }
+    
+    .icon-btn:hover {
       color: #1877f2;
     }
     
@@ -269,6 +602,11 @@ onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?
       border-radius: 50%;
       overflow: hidden;
       cursor: pointer;
+      transition: transform 0.2s;
+    }
+    
+    .avatar:hover {
+      transform: scale(1.1);
     }
     
     .avatar img {
@@ -277,4 +615,5 @@ onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?
       object-fit: cover;
     }
   </style>
-</html>
+</body>
+</html
