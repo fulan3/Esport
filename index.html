@@ -18,9 +18,12 @@
     <div class="kanan">
       <i class="fas fa-bars" id="menuToggle"></i>
       <div class="dropdown-menu" id="dropdownMenu">
-        <div class="menu-item" id="themeToggle"><i class="fas fa-moon"></i> Mode Gelap</div>
-        <div class="menu-item" onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?mode=ems_copy_c'"><i class="fas fa-users"></i> Gabung Grup</div>
-        <div class="menu-item"><i class="fas fa-info-circle"></i> Tentang</div>
+        <div class="menu-item" id="themeToggle"><i class="fas
+        fa-moon"></i> MODE</div>
+        <div class="menu-item"
+        onclick="window.location.href='https://chat.whatsapp.com/K0HlGkGslYJF6srMKteZ10?mode=ems_copy_c'"><i
+        class="fas fa-users"></i> <b>JOIN</b></div>
+        <div class="menu-item"><i class="fas fa-info-circle"></i> INFO</div>
       </div>
     </div>
   </div>
@@ -180,7 +183,7 @@
     .then(() => console.log('Berhasil dibagikan'))
     .catch((error) => console.log('Gagal:', error));
   } else {
-    alert('Browser tidak mendukung fitur share!');
+    alert('browser jadul cik fitur share ra enek!');
   }
 };
    
@@ -220,10 +223,10 @@
       
       if (document.body.classList.contains('light-mode')) {
         themeIcon.className = 'fas fa-sun';
-        themeToggle.innerHTML = '<i class="fas fa-sun"></i> Mode Terang';
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i> TERANG';
       } else {
         themeIcon.className = 'fas fa-moon';
-        themeToggle.innerHTML = '<i class="fas fa-moon"></i> Mode Gelap';
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i> GELAP';
       }
     });
     
@@ -500,7 +503,7 @@
       margin-right: 5px;
     }
     
-    /* Modal styles */
+    
     .modal {
       display: none;
       position: fixed;
